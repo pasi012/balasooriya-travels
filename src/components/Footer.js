@@ -9,6 +9,7 @@ import g2 from "../assets/van1.jpg";
 import g3 from "../assets/bus1.jpg";
 import g4 from "../assets/bus2.jpeg";
 import g5 from "../assets/bus3.jpg";
+import g6 from "../assets/lorry1.jpg";
 
 import { Phone, Mail, MapPin } from "lucide-react";
 import {
@@ -20,7 +21,7 @@ import {
 
 function Footer() {
   const [selectedImage, setSelectedImage] = useState(null);
-  const gallery = [g1, g2, g3, g4, g5];
+  const gallery = [g1, g2, g3, g4, g5, g6];
 
   return (
     <footer className="bg-black text-white font-poppins">
@@ -126,13 +127,33 @@ function Footer() {
 
             {/* Social Icons */}
             <div className="flex justify-center gap-5 text-lg lg:justify-start">
-              {[FaFacebookF, FaYoutube, FaInstagram, FaPinterestP].map((Icon, i) => (
-                <Icon
-                  key={i}
-                  className="cursor-pointer transition hover:text-[#1fa2ff]"
-                />
-              ))}
+              <a
+                href="https://web.facebook.com/profile.php?id=61550694562192"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition hover:text-[#1fa2ff]"
+              >
+                <FaFacebookF />
+              </a>
+
+              <a
+                href="#"
+                rel="noopener noreferrer"
+                className="transition hover:text-[#1fa2ff]"
+              >
+                <FaYoutube />
+              </a>
+
+              <a
+                href="#"
+                rel="noopener noreferrer"
+                className="transition hover:text-[#1fa2ff]"
+              >
+                <FaInstagram />
+              </a>
+
             </div>
+
           </div>
 
         </div>

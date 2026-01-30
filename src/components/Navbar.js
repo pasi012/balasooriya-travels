@@ -60,7 +60,7 @@ export default function Navbar() {
 
           {/* Social Icons – Desktop */}
           <div className="hidden lg:flex items-center gap-4 text-[#facc15]">
-            <a href="#" className="hover:scale-110 transition">
+            <a target="_blank" href="https://web.facebook.com/profile.php?id=61550694562192" className="hover:scale-110 transition">
               <FaFacebookF />
             </a>
             <a href="#" className="hover:scale-110 transition">

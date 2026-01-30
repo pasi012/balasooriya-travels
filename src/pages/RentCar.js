@@ -87,14 +87,14 @@ function RentCar() {
                         <div className="mb-10 overflow-hidden rounded-lg border max-w-3xl">
                             <table className="w-full text-left text-sm">
                                 <tbody>
-                                    <tr className="border-b">
+                                    {/* <tr className="border-b">
                                         <th className="bg-gray-100 px-4 py-3 font-medium">
                                             Price
                                         </th>
                                         <td className="px-4 py-3 font-semibold">
                                             LKR 8,500 (USD 25) Per Day
                                         </td>
-                                    </tr>
+                                    </tr> */}
                                     <tr className="border-b">
                                         <th className="bg-gray-100 px-4 py-3 font-medium">
                                             Mileage
@@ -133,14 +133,14 @@ function RentCar() {
                         <div className=" mb-10 overflow-hidden rounded-lg border max-w-3xl">
                             <table className="w-full text-left text-sm">
                                 <tbody>
-                                    <tr className="border-b">
+                                    {/* <tr className="border-b">
                                         <th className="bg-gray-100 px-4 py-3 font-medium">
                                             Price
                                         </th>
                                         <td className="px-4 py-3 font-semibold">
                                             Free LKR 10,000 (USD 30) Per Day
                                         </td>
-                                    </tr>
+                                    </tr> */}
                                     <tr className="border-b">
                                         <th className="bg-gray-100 px-4 py-3 font-medium">
                                             Mileage
@@ -189,14 +189,14 @@ function RentCar() {
                         <div className="mb-10 overflow-hidden rounded-lg border max-w-3xl">
                             <table className="w-full text-left text-sm">
                                 <tbody>
-                                    <tr className="border-b">
+                                    {/* <tr className="border-b">
                                         <th className="bg-gray-100 px-4 py-3 font-medium">
                                             Price
                                         </th>
                                         <td className="px-4 py-3 font-semibold">
                                             LKR 8,500 (USD 25) Per Day
                                         </td>
-                                    </tr>
+                                    </tr> */}
                                     <tr className="border-b">
                                         <th className="bg-gray-100 px-4 py-3 font-medium">
                                             Mileage
@@ -245,14 +245,14 @@ function RentCar() {
                         <div className="mb-10 overflow-hidden rounded-lg border max-w-3xl">
                             <table className="w-full text-left text-sm">
                                 <tbody>
-                                    <tr className="border-b">
+                                    {/* <tr className="border-b">
                                         <th className="bg-gray-100 px-4 py-3 font-medium">
                                             Price
                                         </th>
                                         <td className="px-4 py-3 font-semibold">
                                             LKR 8,500 (USD 25) Per Day
                                         </td>
-                                    </tr>
+                                    </tr> */}
                                     <tr className="border-b">
                                         <th className="bg-gray-100 px-4 py-3 font-medium">
                                             Mileage
@@ -301,14 +301,14 @@ function RentCar() {
                         <div className="mb-10 overflow-hidden rounded-lg border max-w-3xl">
                             <table className="w-full text-left text-sm">
                                 <tbody>
-                                    <tr className="border-b">
+                                    {/* <tr className="border-b">
                                         <th className="bg-gray-100 px-4 py-3 font-medium">
                                             Price
                                         </th>
                                         <td className="px-4 py-3 font-semibold">
                                             LKR 8,500 (USD 25) Per Day
                                         </td>
-                                    </tr>
+                                    </tr> */}
                                     <tr className="border-b">
                                         <th className="bg-gray-100 px-4 py-3 font-medium">
                                             Mileage
@@ -324,174 +324,6 @@ function RentCar() {
                                         </th>
                                         <td className="px-4 py-3">
                                             14 Pax
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <h3 className="mb-4 text-xl font-semibold">
-                            King Long
-                        </h3>
-
-                        {/* CAR IMAGES */}
-                        <div className="grid sm:grid-cols-2 gap-4 mb-6">
-                            <div className="w-full h-56 sm:h-64 md:h-72 overflow-hidden rounded-lg shadow">
-                                <img
-                                    src={KingLong1}
-                                    alt="Toyota Prius Front"
-                                    className="w-full h-full object-cover"
-                                />
-                            </div>
-
-                            <div className="w-full h-56 sm:h-64 md:h-72 overflow-hidden rounded-lg shadow">
-                                <img
-                                    src={KingLong2}
-                                    alt="Toyota Prius Back"
-                                    className="w-full h-full object-cover"
-                                />
-                            </div>
-                        </div>
-
-                        {/* PRICE TABLE */}
-                        <div className="mb-10 overflow-hidden rounded-lg border max-w-3xl">
-                            <table className="w-full text-left text-sm">
-                                <tbody>
-                                    <tr className="border-b">
-                                        <th className="bg-gray-100 px-4 py-3 font-medium">
-                                            Price
-                                        </th>
-                                        <td className="px-4 py-3 font-semibold">
-                                            LKR 8,500 (USD 25) Per Day
-                                        </td>
-                                    </tr>
-                                    <tr className="border-b">
-                                        <th className="bg-gray-100 px-4 py-3 font-medium">
-                                            Mileage
-                                        </th>
-                                        <td className="px-4 py-3">
-                                            Free 100 kms Per Day <br />
-                                            LKR 65 (USD 0.2) for each additional km
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th className="bg-gray-100 px-4 py-3 font-medium">
-                                            Seating Capacity
-                                        </th>
-                                        <td className="px-4 py-3">
-                                            45 Pax
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <h3 className="mb-4 text-xl font-semibold">
-                            Ashok Leyland
-                        </h3>
-
-                        {/* CAR IMAGES */}
-                        <div className="grid sm:grid-cols-2 gap-4 mb-6">
-                            <div className="w-full h-56 sm:h-64 md:h-72 overflow-hidden rounded-lg shadow">
-                                <img
-                                    src={AshokLeyland1}
-                                    alt="Toyota Prius Front"
-                                    className="w-full h-full object-cover"
-                                />
-                            </div>
-
-                            <div className="w-full h-56 sm:h-64 md:h-72 overflow-hidden rounded-lg shadow">
-                                <img
-                                    src={AshokLeyland2}
-                                    alt="Toyota Prius Back"
-                                    className="w-full h-full object-cover"
-                                />
-                            </div>
-                        </div>
-
-                        {/* PRICE TABLE */}
-                        <div className="mb-10 overflow-hidden rounded-lg border max-w-3xl">
-                            <table className="w-full text-left text-sm">
-                                <tbody>
-                                    <tr className="border-b">
-                                        <th className="bg-gray-100 px-4 py-3 font-medium">
-                                            Price
-                                        </th>
-                                        <td className="px-4 py-3 font-semibold">
-                                            LKR 8,500 (USD 25) Per Day
-                                        </td>
-                                    </tr>
-                                    <tr className="border-b">
-                                        <th className="bg-gray-100 px-4 py-3 font-medium">
-                                            Mileage
-                                        </th>
-                                        <td className="px-4 py-3">
-                                            Free 100 kms Per Day <br />
-                                            LKR 65 (USD 0.2) for each additional km
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th className="bg-gray-100 px-4 py-3 font-medium">
-                                            Seating Capacity
-                                        </th>
-                                        <td className="px-4 py-3">
-                                            54 / 59 Pax
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <h3 className="mb-4 text-xl font-semibold">
-                            Mitsubishi Fuso Rosa
-                        </h3>
-
-                        {/* CAR IMAGES */}
-                        <div className="grid sm:grid-cols-2 gap-4 mb-6">
-                            <div className="w-full h-56 sm:h-64 md:h-72 overflow-hidden rounded-lg shadow">
-                                <img
-                                    src={MitsubishiRosa1}
-                                    alt="Toyota Prius Front"
-                                    className="w-full h-full object-cover"
-                                />
-                            </div>
-
-                            <div className="w-full h-56 sm:h-64 md:h-72 overflow-hidden rounded-lg shadow">
-                                <img
-                                    src={MitsubishiRosa2}
-                                    alt="Toyota Prius Back"
-                                    className="w-full h-full object-cover"
-                                />
-                            </div>
-                        </div>
-
-                        {/* PRICE TABLE */}
-                        <div className="overflow-hidden rounded-lg border max-w-3xl">
-                            <table className="w-full text-left text-sm">
-                                <tbody>
-                                    <tr className="border-b">
-                                        <th className="bg-gray-100 px-4 py-3 font-medium">
-                                            Price
-                                        </th>
-                                        <td className="px-4 py-3 font-semibold">
-                                            LKR 8,500 (USD 25) Per Day
-                                        </td>
-                                    </tr>
-                                    <tr className="border-b">
-                                        <th className="bg-gray-100 px-4 py-3 font-medium">
-                                            Mileage
-                                        </th>
-                                        <td className="px-4 py-3">
-                                            Free 100 kms Per Day <br />
-                                            LKR 65 (USD 0.2) for each additional km
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th className="bg-gray-100 px-4 py-3 font-medium">
-                                            Seating Capacity
-                                        </th>
-                                        <td className="px-4 py-3">
-                                            33 Pax
                                         </td>
                                     </tr>
                                 </tbody>
