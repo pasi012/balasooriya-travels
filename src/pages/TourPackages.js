@@ -91,7 +91,7 @@ function TourPackages() {
                             </ol>
 
                             {/* IMAGES (Exact Layout) */}
-                            <div className="mt-8">
+                            <div className="mt-8 mb-10">
                                 <img
                                     src={tour1}
                                     alt="Colombo City Tour"
@@ -100,9 +100,9 @@ function TourPackages() {
                             </div>
 
                             {/* PRICE */}
-                            <div className="mb-8 mt-4 bg-gray-100 px-4 py-2 font-semibold">
+                            {/* <div className="mb-8 mt-4 bg-gray-100 px-4 py-2 font-semibold">
                                 Package Price &nbsp;&nbsp; LKR 5,500/= &nbsp;&nbsp; USD 30
-                            </div>
+                            </div> */}
 
                             <h3 className="mb-4 font-bold uppercase text-2xl">
                                 2. City Tour to Kandy in One Day
@@ -141,7 +141,7 @@ function TourPackages() {
                             </ol>
 
                             {/* IMAGES GRID */}
-                            <div className="mt-8">
+                            <div className="mt-8 mb-10">
                                 <img
                                     src={tour2}
                                     alt="Kandy City Tour"
@@ -150,9 +150,9 @@ function TourPackages() {
                             </div>
 
                             {/* PRICE */}
-                            <div className="mb-8 mt-4 bg-gray-100 px-4 py-2 font-semibold">
+                            {/* <div className="mb-8 mt-4 bg-gray-100 px-4 py-2 font-semibold">
                                 Package Price &nbsp;&nbsp; LKR 9,000/= &nbsp;&nbsp; USD 50
-                            </div>
+                            </div> */}
 
                             <h3 className="mb-4 font-bold uppercase text-2xl">
                                 3. A Day Around the Ancient City of Galle
@@ -178,7 +178,7 @@ function TourPackages() {
                             </ol>
 
                             {/* IMAGES GRID */}
-                            <div className="mt-8">
+                            <div className="mt-8  mb-10">
                                 <img
                                     src={tour3}
                                     alt="Galle City Tour"
@@ -187,9 +187,9 @@ function TourPackages() {
                             </div>
 
                             {/* PRICE */}
-                            <div className="mb-8 mt-4 bg-gray-100 px-4 py-2 font-semibold">
+                            {/* <div className="mb-8 mt-4 bg-gray-100 px-4 py-2 font-semibold">
                                 Package Price &nbsp;&nbsp; LKR 9,000/= &nbsp;&nbsp; USD 40
-                            </div>
+                            </div> */}
 
                             <h3 className="mb-4 font-bold uppercase text-2xl">
                                 4. Travel Sri Lanka in a Single Day
@@ -209,9 +209,9 @@ function TourPackages() {
                             </div>
 
                             {/* PRICE */}
-                            <div className="mt-4 bg-gray-100 px-4 py-2 font-semibold">
+                            {/* <div className="mt-4 bg-gray-100 px-4 py-2 font-semibold">
                                 Package Price &nbsp;&nbsp; LKR 7,500/= &nbsp;&nbsp; USD 45
-                            </div>
+                            </div> */}
 
                         </div>
 

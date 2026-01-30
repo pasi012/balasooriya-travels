@@ -4,12 +4,11 @@ import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 // Gallery images
-import g1 from "../assets/hero1.jpeg";
-import g2 from "../assets/hero2.jpeg";
-import g3 from "../assets/hero3.jpeg";
-import g4 from "../assets/hero4.jpeg";
-import g5 from "../assets/hero5.jpeg";
-import g6 from "../assets/hero6.jpeg";
+import g1 from "../assets/car1.jpg";
+import g2 from "../assets/van1.jpg";
+import g3 from "../assets/bus1.jpg";
+import g4 from "../assets/bus2.jpeg";
+import g5 from "../assets/bus3.jpg";
 
 import { Phone, Mail, MapPin } from "lucide-react";
 import {
@@ -21,7 +20,7 @@ import {
 
 function Footer() {
   const [selectedImage, setSelectedImage] = useState(null);
-  const gallery = [g1, g2, g3, g4, g5, g6];
+  const gallery = [g1, g2, g3, g4, g5];
 
   return (
     <footer className="bg-black text-white font-poppins">

@@ -127,7 +127,7 @@ function Home() {
 
             <div
               data-aos="fade-right"
-              className="relative h-[450px] w-full overflow-hidden rounded-xl md:h-[500px]"
+              className="relative h-[370px] w-full overflow-hidden rounded-xl md:h-[500px]"
             >
               <img
                 src={aboutTaxi}
